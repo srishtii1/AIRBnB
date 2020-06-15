@@ -1,5 +1,5 @@
 # AIRBnB
-Analyses the Seattle AirBnB dataset (source: Kaggle) to find out what can hosts do to become Super-Hosts (dataset in the zip folder)
+Analyses the Seattle AirBnB dataset (source: Kaggle) to find out what can hosts do to become Super-Hosts (dataset in the zip folder 'Datasets.zip')
 
 The project uses the listing.csv to analyse the numerical and categorical data using Logistic Regression and Random Forest Classifier. 
 Further, I have used the textual reviews in reviews.csv to analyse the sentiments. I have performed Sentiment Analysis using VADER package. After analysing the sentiments, I separated positive and negative sentiments into two different dataframes. I then analysed which factors are more important for positive reviews and what should hosts avoid doing by analysing negative reviews. this involved finding the most frequently occuring words in the dataframe. To achieve this, the following strategy was adopted:
